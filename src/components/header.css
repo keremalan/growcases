@@ -1,0 +1,67 @@
+.header__container {
+    display: flex;
+    height: 75px;
+    padding: 0 3.5vw;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #000000 0%, #282828 100%);
+    color: white!important;
+}
+
+.hcb__h1, .hcbh__span {
+    text-transform: uppercase;
+}
+
+.hcb__h1 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.hcb__logo {
+    height: 35px;
+}
+
+.hcbh__span {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.hc__ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.hcul__a {
+    display: inline-block;
+    color: white;
+    margin: 0 2vw;
+    text-align: center;
+}
+
+.hc__button {
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.hcb__span {
+    color: white;
+}
+
+.hc__hamburger {
+    display: none;
+}
+
+@media only screen and (max-width: 375px) {
+    .hc__ul, .hc__button {
+        display: none;
+    }
+
+    .hc__hamburger {
+        display: block;
+    }
+
+    .header__container {
+        padding: 0 5vw;
+    }
+}

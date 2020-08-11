@@ -1,0 +1,132 @@
+.oc__header {
+    padding: 4vh 2vw;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.oc__h2 {
+    color: #9A9A9A;
+}
+
+.oc__case {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #9A9A9A;
+    height: 50vh;
+}
+
+.occ__case__flex {
+    display: gri;
+    justify-content: center;
+    align-items: center;
+}
+
+.occ__h3 {
+    margin: 2vh 0;
+    font-size: 1.5rem;
+}
+
+.occ__a {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #2E2E2E 100%);
+    border: 1px solid #333333;
+    padding: 1.2vh 2vw;
+    font-size: 1rem;
+    text-align: center;
+    margin: 2vh 0;
+    border-radius: 30px;
+}
+
+.oc__casecontains {
+    background: #131313;
+}
+
+.occ__h2 {
+    padding: 2vh 2vw;
+    color: #9A9A9A;
+}
+
+.occ__flex {
+    position: relative;
+    background: #131313;
+    height: 50.6vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 2vh;
+}
+
+.occf__box {
+    margin: 1vh;
+    width: 250px;
+    height: 150px;
+    min-height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #181818;
+}
+
+.oocfb__details {
+    width: 94%;
+    height: 30px;
+    background: #842525;
+    color: black;
+    padding-left: 1vw;
+    margin-top: 2vh;
+    padding-bottom: 1vh;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.occf__box__details--2 {
+    background: #303C66;
+}
+
+.occfb__h4 {
+    font-size: 0.9rem;
+    margin-top: 2px;
+    color: white;
+}
+
+.oocfb__h5 {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.occ__img {
+    height: 20vh;
+    margin: 2vh 0;
+}
+
+.occ__img:hover {
+    height: 20.5vh;
+    transition: 0.5s;
+}
+
+.occfb__img {
+    display: block;
+    height: 80px;
+    width: 60px;
+    padding-top: 20px;
+}
+
+.title > a > span {
+    visibility: hidden;
+}
+
+.title > a > span:hover {
+    visibility: visible;
+}
+
+
+.occ__a--open:hover {
+    background: white;
+    color: #2a2a2a; 
+}

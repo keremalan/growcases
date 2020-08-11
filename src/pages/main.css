@@ -1,0 +1,194 @@
+a:hover {
+    border: none;
+}
+
+.main {
+    height: 100%;
+    background: #222222;
+}
+.main__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.mc__aside__cases {
+    width: 15%;
+    background: #222222;
+}
+
+.mc__body {
+    width: 70%;
+    background: #0F0F0F;
+}
+
+.mc__aside__chat {
+    width: 15%;
+    background: #191919;
+    color: #B1B1B1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mac__icons {
+    background: #1A1A1A;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mi__img {
+    height: 2vh;
+    margin-right: 1vw;
+}
+
+.ml__case {
+    height: 14vh;
+    background: linear-gradient(90deg, #000000 0%, #1A1A1A 54.17%, #000000 100%), #230090;
+    margin-bottom: 0.28vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mlc__left {
+    height: inherit;
+    background: white;
+    width: 1%;
+}
+
+.mlc__right {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mc__h4 {
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.mb__header {
+    height: 6vh;
+}
+
+.mb__preCases {
+    padding: 1vh 2vw;
+    color: white;
+}
+
+.mbp__h2 {
+    text-transform: uppercase;
+    padding: 2vh 0;
+}
+
+.mbp__casesflex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mbpcf__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    column-gap: 1vw;
+    margin: 5vh 1vw;
+}
+
+.mbpcfb__h3 {
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.mbpcfb__img {
+    display: block;
+    height: 15vh;
+}
+
+.mbpcfb__img:hover {
+    height: 15.5vh;
+    transition: 1s;
+}
+
+.mbpcfb__a {
+    padding: 0.8vh 1.8vw;
+    font-size: 0.8rem;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #2E2E2E 100%);
+    border: 1px solid #333333;
+}
+
+.mbpcfb__a:hover {
+    background: white;
+    color: #333333;
+}
+
+.mac__chat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 1vw;
+    justify-content: space-between;
+    border-bottom: 0.1px solid #0C0031;
+}
+
+.mc__chatMessage {
+    padding: 0vh 1vw;
+    display: flex;
+}
+
+.mcc__profile {
+    width: 25%;
+}
+
+.mcc__message {
+    width: 90%;
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 1366px) {
+    .mccp__img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .mc__aside__chat {
+        display: none;
+    }
+
+    .mac__chat {
+        display: none;
+    }
+
+    .mc__chatMessage {
+        display: none;
+    }
+
+    .mc__aside__cases {
+        display: none;
+    }
+
+    .mbp__casesflex {
+        grid-template-columns: 100%;
+        row-gap: 10vh;
+    }
+
+    .mb__preCases {
+        display: grid;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .mc__body {
+        width: 100%;
+    }
+}
